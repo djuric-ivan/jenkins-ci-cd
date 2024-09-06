@@ -14,7 +14,7 @@ pipeline {
         stage("Build Process") {
             steps {
                 script{
-                    sh 'maven clean install'
+                    bat 'maven clean install'
                 }
             }
         }
